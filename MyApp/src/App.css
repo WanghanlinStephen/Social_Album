@@ -1,0 +1,179 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.selected {
+  color: red;
+}
+
+div#header {
+  display:block;
+  border: 2px solid black;
+  background-color: lightblue;
+  width:1210px;
+}
+
+div#header h1{
+  display : inline-block;
+  margin-left:50px;
+  width:300px;
+}
+
+div#header h3{
+  display : inline-block;
+  margin-left:50px;
+}
+
+div#header input[type="text"]{
+  display : inline-block;
+  width:150px;
+  height:20px;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+  border-radius: 4px;
+}
+
+div#header button{
+  display:inline-block;
+  font-family: arial;
+  font-size: 20px;
+  margin-left:100px;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+div#content {
+  display:block;
+}
+
+div#nameList{
+  display: inline-block;
+  border: 2px solid black;
+  vertical-align:top;
+  width:200px;
+  height:500px;
+  overflow-y:scroll;
+  box-shadow: 5px 5px 2px grey;
+  border-radius: 5px;
+  margin-top:5px;
+  background-image: url('/images/background1.jpg');
+  background-repeat: no-repeat;
+  background-size: 200px 500px;
+}
+
+div#nameList ul{
+  list-style: none;
+  padding-left: 10px;
+}
+
+div#albumDisplay{
+  display:inline-block;
+  border: 2px solid black;
+  vertical-align:top;
+  width:1000px;
+  height:500px;
+  overflow-y:scroll;
+  box-shadow: 5px 5px 2px grey;
+  border-radius: 5px;
+  margin-top:5px;
+  background-image: url('/images/background2.jpg');
+  background-repeat: no-repeat;
+  background-size: 1000px 500px;
+}
+
+div.smallPhotoBlock{
+  display:inline-block;
+  margin-left:15px;
+  vertical-align:top;
+  width:300px;
+  margin-top:15px;
+}
+
+div.smallPhotoBlock img{
+  display:block;
+  width:270px;
+  min-height: 100px;
+  box-shadow: 5px 5px 2px grey;
+  border-radius: 5px;
+}
+
+div.smallPhotoBlock h3{
+  display:inline-block;
+  width:190px;
+  vertical-align:top;
+}
+
+div.smallPhotoBlock button{
+  display:inline-block;
+  width:90px;
+  vertical-align:top;
+  margin-top:15px;
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+  font-family: arial;
+}
+
+div#fileSelection{
+  display:block;
+  margin-bottom:15px;
+  margin-top:20px;
+}
+
+div#fileSelection div{
+  display:inline-block;
+  width:600px;
+}
+
+div#fileSelection input{
+  display:inline-block;
+}
+
+div#fileSelection button{
+  display:inline-block;
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+  font-family: arial;
+}
+
+img#backCross{
+  margin-left: 95%;
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+img.largePhoto{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:70%;
+}
+
+div#bigPhoto h3{
+  display:inline-block;
+  margin-left:200px;
+  width:300px;
+}
+
+div#bigPhoto button{
+  display:inline-block;
+  margin-left:200px
+}
+
+button{
+  font-family: arial;
+  font-size: 13px;
+}
+
+input[type="file"]{
+  font-family: arial;
+  font-size: 13px;
+}
